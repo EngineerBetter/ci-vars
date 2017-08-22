@@ -12,5 +12,5 @@ Using a hydrated version of this file makes it easier when someone has to do a `
 $ cp secrets.yml private/secret.yml
 # Fill in values
 $ cd workspace/some-project
-$ fly [...] --load-vars-from ~/workspace/ci-vars-keys/private/secrets.yml
+$ fly [...] --load-vars-from ~/workspace/ci-vars/private/secrets.yml
 ```
