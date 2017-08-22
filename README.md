@@ -9,7 +9,7 @@ Using a hydrated version of this file makes it easier when someone has to do a `
 ## Usage
 
 ```
-$ cp secrets.yml private/secret.yml
+$ cp secrets.yml.template private/secret.yml
 # Fill in values
 $ cd workspace/some-project
 $ fly [...] --load-vars-from ~/workspace/ci-vars/private/secrets.yml
